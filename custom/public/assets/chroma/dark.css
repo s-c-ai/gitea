@@ -1,0 +1,180 @@
+.chroma {
+  background: var(--code-bg);
+  color: var(--code-fg);
+}
+
+.chroma .ln,
+.chroma .lnt,
+.chroma .lnlinks {
+  color: var(--code-gutter);
+}
+
+.chroma .hl,
+.chroma .hll {
+  background-color: var(--code-line-highlight);
+}
+
+/* texto base */
+.chroma .n,
+.chroma .x,
+.chroma .nx,
+.chroma .nv,
+.chroma .vc,
+.chroma .vg,
+.chroma .vi,
+.chroma .vm {
+  color: var(--code-token-variable);
+}
+
+/* comentários */
+.chroma .c,
+.chroma .c1,
+.chroma .ch,
+.chroma .cm,
+.chroma .cs,
+.chroma .cpf {
+  color: var(--code-token-comment);
+  font-style: italic;
+}
+
+/* keywords */
+.chroma .k,
+.chroma .kd,
+.chroma .kn,
+.chroma .kp,
+.chroma .kr,
+.chroma .ow {
+  color: var(--code-token-keyword);
+}
+
+/* constantes/keywords especiais */
+.chroma .kc {
+  color: var(--code-token-constant);
+}
+
+/* operadores */
+.chroma .o {
+  color: var(--code-token-operator);
+}
+
+/* pontuação / delimitadores */
+.chroma .p {
+  color: var(--code-token-delimiter);
+}
+
+/* tags / nomes markup */
+.chroma .nt,
+.chroma .nl {
+  color: var(--code-token-tag);
+}
+
+/* atributos */
+.chroma .na,
+.chroma .py {
+  color: var(--code-token-attribute);
+}
+
+/* builtins / names especiais / constants */
+.chroma .nb,
+.chroma .bp,
+.chroma .no,
+.chroma .ni {
+  color: var(--code-token-constant);
+}
+
+/* tipos / classes / interfaces */
+.chroma .kt,
+.chroma .nc,
+.chroma .nn,
+.chroma .ne {
+  color: var(--code-token-type);
+}
+
+/* decorators / annotations */
+.chroma .nd {
+  color: var(--code-token-type);
+}
+
+/* funções */
+.chroma .nf,
+.chroma .fm {
+  color: var(--code-token-function);
+}
+
+/* strings */
+.chroma .s,
+.chroma .s1,
+.chroma .s2,
+.chroma .sb,
+.chroma .sd,
+.chroma .sh {
+  color: var(--code-token-string);
+}
+
+/* escapes / strings especiais */
+.chroma .sa,
+.chroma .sc,
+.chroma .se,
+.chroma .si,
+.chroma .sr,
+.chroma .ss,
+.chroma .sx,
+.chroma .dl {
+  color: var(--code-token-string-escape);
+}
+
+/* números */
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .mo,
+.chroma .il {
+  color: var(--code-token-number);
+}
+
+/* genéricos / headings */
+.chroma .gh,
+.chroma .gu {
+  color: var(--code-token-type);
+  font-weight: 600;
+}
+
+/* inserções / remoções */
+.chroma .gi {
+  color: var(--code-token-string);
+}
+
+.chroma .gd {
+  color: var(--code-token-tag);
+}
+
+/* erros */
+.chroma .err,
+.chroma .gr,
+.chroma .gt {
+  color: var(--code-token-tag);
+  text-decoration: underline;
+}
+
+/* emphasis / strong */
+.chroma .ge {
+  font-style: italic;
+}
+
+.chroma .gs {
+  font-weight: 600;
+}
+
+/* whitespace tokens */
+.chroma .w {
+  color: var(--code-token-variable);
+}
+
+/* parênteses/delimitadores mais suaves em trechos específicos */
+.chroma .o + .p,
+.chroma .p + .o,
+.chroma .p + .p {
+  color: var(--code-token-delimiter-alt);
+}

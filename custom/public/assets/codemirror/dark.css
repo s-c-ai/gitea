@@ -1,0 +1,102 @@
+/* custom/public/assets/codemirror/dark.css */
+
+.CodeMirror.cm-s-default,
+.CodeMirror.cm-s-paper {
+  background: #151821 !important;
+  color: #f8f8f2 !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-gutters,
+.CodeMirror.cm-s-paper .CodeMirror-gutters {
+  background: #151821 !important;
+  border-right: 1px solid #2a3344 !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-linenumber,
+.CodeMirror.cm-s-paper .CodeMirror-linenumber {
+  color: #6272a4 !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-cursor,
+.CodeMirror.cm-s-paper .CodeMirror-cursor {
+  border-left: 1px solid #f8f8f2 !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-selected,
+.CodeMirror.cm-s-paper .CodeMirror-selected {
+  background: #2f3a59 !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-activeline-background,
+.CodeMirror.cm-s-paper .CodeMirror-activeline-background {
+  background: #1d2433 !important;
+}
+
+.CodeMirror.cm-s-default .cm-keyword,
+.CodeMirror.cm-s-paper .cm-keyword,
+.CodeMirror.cm-s-default .cm-operator,
+.CodeMirror.cm-s-paper .cm-operator {
+  color: #ff79c6 !important;
+}
+
+.CodeMirror.cm-s-default .cm-string,
+.CodeMirror.cm-s-paper .cm-string {
+  color: #f1fa8c !important;
+}
+
+.CodeMirror.cm-s-default .cm-number,
+.CodeMirror.cm-s-paper .cm-number {
+  color: #bd93f9 !important;
+}
+
+.CodeMirror.cm-s-default .cm-comment,
+.CodeMirror.cm-s-paper .cm-comment {
+  color: #6272a4 !important;
+  font-style: italic;
+}
+
+.CodeMirror.cm-s-default .cm-def,
+.CodeMirror.cm-s-paper .cm-def {
+  color: #8be9fd !important;
+}
+
+.CodeMirror.cm-s-default .cm-variable,
+.CodeMirror.cm-s-paper .cm-variable {
+  color: #f8f8f2 !important;
+}
+
+.CodeMirror.cm-s-default .cm-variable-2,
+.CodeMirror.cm-s-paper .cm-variable-2,
+.CodeMirror.cm-s-default .cm-property,
+.CodeMirror.cm-s-paper .cm-property,
+.CodeMirror.cm-s-default .cm-type,
+.CodeMirror.cm-s-paper .cm-type,
+.CodeMirror.cm-s-default .cm-builtin,
+.CodeMirror.cm-s-paper .cm-builtin {
+  color: #8be9fd !important;
+}
+
+.CodeMirror.cm-s-default .cm-tag,
+.CodeMirror.cm-s-paper .cm-tag {
+  color: #ff79c6 !important;
+}
+
+.CodeMirror.cm-s-default .cm-attribute,
+.CodeMirror.cm-s-paper .cm-attribute {
+  color: #50fa7b !important;
+}
+
+.CodeMirror.cm-s-default .cm-meta,
+.CodeMirror.cm-s-paper .cm-meta {
+  color: #ffb86c !important;
+}
+
+.CodeMirror.cm-s-default .cm-qualifier,
+.CodeMirror.cm-s-paper .cm-qualifier {
+  color: #8be9fd !important;
+}
+
+.CodeMirror.cm-s-default .cm-bracket,
+.CodeMirror.cm-s-paper .cm-bracket {
+  color: #f8f8f2 !important;
+}

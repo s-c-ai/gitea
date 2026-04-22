@@ -1,0 +1,100 @@
+.CodeMirror.cm-s-default,
+.CodeMirror.cm-s-paper {
+  background: var(--code-bg) !important;
+  color: var(--code-fg) !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-gutters,
+.CodeMirror.cm-s-paper .CodeMirror-gutters {
+  background: var(--code-bg) !important;
+  border-right: 1px solid var(--code-border) !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-linenumber,
+.CodeMirror.cm-s-paper .CodeMirror-linenumber {
+  color: var(--code-gutter) !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-cursor,
+.CodeMirror.cm-s-paper .CodeMirror-cursor {
+  border-left: 1px solid var(--code-fg) !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-selected,
+.CodeMirror.cm-s-paper .CodeMirror-selected {
+  background: var(--code-selection) !important;
+}
+
+.CodeMirror.cm-s-default .CodeMirror-activeline-background,
+.CodeMirror.cm-s-paper .CodeMirror-activeline-background {
+  background: var(--code-line-highlight) !important;
+}
+
+.CodeMirror.cm-s-default .cm-keyword,
+.CodeMirror.cm-s-paper .cm-keyword,
+.CodeMirror.cm-s-default .cm-operator,
+.CodeMirror.cm-s-paper .cm-operator {
+  color: var(--code-token-keyword) !important;
+}
+
+.CodeMirror.cm-s-default .cm-string,
+.CodeMirror.cm-s-paper .cm-string {
+  color: var(--code-token-string) !important;
+}
+
+.CodeMirror.cm-s-default .cm-number,
+.CodeMirror.cm-s-paper .cm-number {
+  color: var(--code-token-number) !important;
+}
+
+.CodeMirror.cm-s-default .cm-comment,
+.CodeMirror.cm-s-paper .cm-comment {
+  color: var(--code-token-comment) !important;
+  font-style: italic;
+}
+
+.CodeMirror.cm-s-default .cm-def,
+.CodeMirror.cm-s-paper .cm-def {
+  color: var(--code-token-function) !important;
+}
+
+.CodeMirror.cm-s-default .cm-variable,
+.CodeMirror.cm-s-paper .cm-variable {
+  color: var(--code-token-variable) !important;
+}
+
+.CodeMirror.cm-s-default .cm-variable-2,
+.CodeMirror.cm-s-paper .cm-variable-2,
+.CodeMirror.cm-s-default .cm-property,
+.CodeMirror.cm-s-paper .cm-property,
+.CodeMirror.cm-s-default .cm-type,
+.CodeMirror.cm-s-paper .cm-type,
+.CodeMirror.cm-s-default .cm-builtin,
+.CodeMirror.cm-s-paper .cm-builtin {
+  color: var(--code-token-type) !important;
+}
+
+.CodeMirror.cm-s-default .cm-tag,
+.CodeMirror.cm-s-paper .cm-tag {
+  color: var(--code-token-tag) !important;
+}
+
+.CodeMirror.cm-s-default .cm-attribute,
+.CodeMirror.cm-s-paper .cm-attribute {
+  color: var(--code-token-attribute) !important;
+}
+
+.CodeMirror.cm-s-default .cm-meta,
+.CodeMirror.cm-s-paper .cm-meta {
+  color: var(--code-token-constant) !important;
+}
+
+.CodeMirror.cm-s-default .cm-qualifier,
+.CodeMirror.cm-s-paper .cm-qualifier {
+  color: var(--code-token-type) !important;
+}
+
+.CodeMirror.cm-s-default .cm-bracket,
+.CodeMirror.cm-s-paper .cm-bracket {
+  color: var(--code-token-delimiter) !important;
+}
