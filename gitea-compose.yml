@@ -35,9 +35,6 @@ services:
       GITEA__oauth2__JWT_SECRET: ${GITEA_JWT_SECRET}
       GITEA__server__LFS_JWT_SECRET: ${GITEA_LFS_JWT_SECRET}
 
-      GITEA__service__DISABLE_REGISTRATION: true
-      GITEA__service__REQUIRE_SIGNIN_VIEW: true
-
       GITEA__ui__THEMES: gitea-auto,gitea-light,gitea-dark,soberana-dark,soberana-light
       GITEA__ui__DEFAULT_THEME: soberana-light
       GITEA__DEFAULT__APP_NAME: Soberana
