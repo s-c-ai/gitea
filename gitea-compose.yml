@@ -24,9 +24,9 @@ services:
       GITEA__database__USER: soberana
       GITEA__database__PASSWD: ${POSTGRES_PASSWORD}
 
-      GITEA__server__ROOT_URL: http://177.39.20.252/
-      GITEA__server__DOMAIN: 177.39.20.252
-      GITEA__server__SSH_DOMAIN: 177.39.20.252
+      GITEA__server__ROOT_URL: https://soberana.srv.br/
+      GITEA__server__DOMAIN: soberana.srv.br
+      GITEA__server__SSH_DOMAIN: soberana.srv.br
       GITEA__server__HTTP_PORT: 3000
       GITEA__server__SSH_PORT: 2222
 
